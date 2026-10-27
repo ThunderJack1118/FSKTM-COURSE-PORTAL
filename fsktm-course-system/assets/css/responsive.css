@@ -1,0 +1,79 @@
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .course-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .features {
+        flex-direction: column;
+    }
+    
+    .feature {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-row .form-group {
+        flex: 100%;
+    }
+    
+    .course-header {
+        flex-direction: column;
+    }
+    
+    .course-header .course-image {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .profile-section {
+        flex-direction: column;
+    }
+    
+    .profile-picture {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .course-item {
+        flex-direction: column;
+    }
+    
+    .course-item .course-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-nav li {
+        margin: 0.5rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .tab-nav {
+        flex-direction: column;
+    }
+    
+    .tab-nav li {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .tab-nav li a {
+        padding: 0.5rem;
+    }
+}
